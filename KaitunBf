@@ -44,7 +44,7 @@ getgenv().SettingFarm = getgenv().SettingFarm
         },
         ["Setting Hop"] = {
             ["Hop When Idle"] = true,
-            ["Hop If Have Player Near"] = true,
+            ["Hop If Have Player Near"] = false,
             ["Hop Find Boss"] = false,
             ["Hop When High Ping"] = true,
             ["Hop If Admin Join Server"] = true,
