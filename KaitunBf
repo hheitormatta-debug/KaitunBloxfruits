@@ -5905,7 +5905,7 @@ end
 -- ==============================================================================
 -- BỘ ĐIỀU KHIỂN BẬT / TẮT KAITUN QUA getgenv().AutoKaitun
 -- ==============================================================================
-getgenv().AutoKaitun = (getgenv().AutoKaitun == nil) and false or getgenv().AutoKaitun
+getgenv().AutoKaitun = (getgenv().AutoKaitun == nil) and true or getgenv().AutoKaitun
 
 -- Huỷ mọi tween đang chạy + trả lại trạng thái bình thường cho player,
 -- không để các hàm tween của Kaitun giữ player lại
