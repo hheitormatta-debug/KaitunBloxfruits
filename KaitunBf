@@ -454,7 +454,7 @@ function sigmahub()
     alert("Kaitun Hub", "Loading components (2/2)...")
     SetText("MainTextLabel", "Initalizing Script..")
     ScriptStorage = {
-        IsInitalized = false,
+        IsInitalized = true,
         PlayerData = {},
         Melees = {},
         CurrentMeleeData = {},
