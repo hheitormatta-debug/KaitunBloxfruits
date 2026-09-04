@@ -35,7 +35,7 @@ getgenv().SettingFarm = getgenv().SettingFarm
             ["Farm Dark Fragment At Sea2"] = false,
             ["Auto Collect Berry"] = false,
             ["Auto Farm Boss Drops"] = true, -- Săn toàn bộ Boss lấy Items (Kiếm, Súng, Phụ kiện)
-            ["Rainbow Haki"] = true, -- 🌈 Tự động làm nhiệm vụ Rainbow Haki (Horned Man Quest)
+            ["Rainbow Haki"] = false, -- 🌈 Tự động làm nhiệm vụ Rainbow Haki (Horned Man Quest)
         },
         ["Auto Chat"] = {
             ["Enabled"] = false,
