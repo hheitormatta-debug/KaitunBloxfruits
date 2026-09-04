@@ -8,7 +8,7 @@ ScriptInitTimestamp = os.time()
 getgenv().SettingFarm = getgenv().SettingFarm
     or {
         ["Team"] = "Pirates",
-        ["Tween Speed"] = 180,
+        ["Tween Speed"] = 145,
         ["Bypass Teleport"] = {
             ["Enabled"] = true,
             ["Delay Reset"] = 3,
@@ -20,10 +20,10 @@ getgenv().SettingFarm = getgenv().SettingFarm
         },
         ["White Screen"] = false,
         ["Black Screen"] = false,
-        ["FPS Boost"] = false,
+        ["FPS Boost"] = true,
         ["Lock Fps"] = {
-            ["Enabled"] = false,
-            ["FPS"] = 20,
+            ["Enabled"] = true,
+            ["FPS"] = 80,
         },
         ["Get Items"] = {
             ["GodHuman"] = true,
@@ -35,7 +35,7 @@ getgenv().SettingFarm = getgenv().SettingFarm
             ["Farm Dark Fragment At Sea2"] = false,
             ["Auto Collect Berry"] = false,
             ["Auto Farm Boss Drops"] = true, -- Săn toàn bộ Boss lấy Items (Kiếm, Súng, Phụ kiện)
-            ["Rainbow Haki"] = false, -- 🌈 Tự động làm nhiệm vụ Rainbow Haki (Horned Man Quest)
+            ["Rainbow Haki"] = true, -- 🌈 Tự động làm nhiệm vụ Rainbow Haki (Horned Man Quest)
         },
         ["Auto Chat"] = {
             ["Enabled"] = false,
@@ -56,8 +56,8 @@ getgenv().SettingFarm = getgenv().SettingFarm
             ["Flash Step"] = true,
             ["Observation"] = true,
             ["Auto Buy Haki Legendary"] = true,
-            ["Auto Buy All Swords"] = false,
-            ["Auto Buy All Guns"] = false,
+            ["Auto Buy All Swords"] = true,
+            ["Auto Buy All Guns"] = true,
         },
         ["Sniper Fruit Shop"] = {
             ["Enabled"] = false, -- Auto Buy Fruit in Shop Mirage and Normal
@@ -452,7 +452,7 @@ function sigmahub()
         task.wait()
     until SetText
     alert("Kaitun Hub", "Loading components (2/2)...")
-    SetText("MainTextLabel", "Initalizing Script..")
+    SetText("MainTextLabel", "Initalizing Script right now..")
     ScriptStorage = {
         IsInitalized = true,
         PlayerData = {},
@@ -555,7 +555,7 @@ function sigmahub()
         )
     end
     -- ==============================================================================
-    -- 🐞 HỆ THỐNG DEBUG VÀ BÁO CÁO LỖI TOÀN DIỆN (TIẾNG VIỆT 100% - DỄ TÌM LỖI)
+    -- folk
     -- ==============================================================================
     ScriptStorage.ErrorLogs = {}
     ScriptStorage.LastStuckCheck = os.time()
