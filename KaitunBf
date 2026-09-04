@@ -8,7 +8,7 @@ ScriptInitTimestamp = os.time()
 getgenv().SettingFarm = getgenv().SettingFarm
     or {
         ["Team"] = "Pirates",
-        ["Tween Speed"] = 130,
+        ["Tween Speed"] = 120,
         ["Bypass Teleport"] = {
             ["Enabled"] = true,
             ["Delay Reset"] = 3,
